@@ -5,3 +5,8 @@ discusses their approach to flaky tests. One aspect was running flakies and
 only considering them failed if they fail 3 times in a row. This repo
 implements that in Python with pytest.
 
+To use, run:
+
+    ./nonflaky_runner.sh
+    ./flaky_runner.sh
+
